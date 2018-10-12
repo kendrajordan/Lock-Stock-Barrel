@@ -1,0 +1,75 @@
+// Bootstrap and its default variables
+$gray-100: #A1633F;
+$blue:    #F3F3BE;
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Overlock|Special+Elite');
+body,html{
+  background:
+  linear-gradient(
+  45deg,#E28C35,#F5DDC4
+  );
+}
+.navbar-brand{
+  font-family: 'Special Elite', cursive;
+}
+.header{
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-family: 'Special Elite', cursive;
+}
+.month{
+  display:flex;
+  justify-content: space-around;
+}
+.card{
+  width:60px;
+  height:auto;
+  background-color: #EEC564;
+  font-family: 'Overlock', cursive;
+  font-size: 18px;
+}
+.jumbotron{
+  height: 500px;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  padding: 0;
+  background-image: url('https://www.webpagedepot.com/images/sitefiles/2017-may-pics/loxstock5-710.png');
+  background-size: cover;
+
+}
+
+iframe{
+  max-width: 100%;
+}
+.header{
+  color:#F3F3BE;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1.2%;
+  background-color: #A1633F;
+}
+div.row.food{
+  display:flex;
+  justify-content: space-around;
+}
+.location{
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding:0;
+}
+.hours{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.hours ul{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 0;
+}
