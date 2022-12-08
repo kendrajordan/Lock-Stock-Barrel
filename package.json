@@ -25,7 +25,7 @@
   "dependencies": {
     "@babel/polyfill": "^7.0.0",
     "concurrently": "^4.0.1",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "heroku": "^7.16.8"
   },
   "version": "1.0.0",
